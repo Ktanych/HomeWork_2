@@ -89,6 +89,18 @@ public class Main {
 
     }
     public static void task8 () {
+        System.out.println("Задача 8");
+        var generalopeningHours = 640;
+        var employeeworkingHours = 8;
+        var employeesCompany = generalopeningHours / employeeworkingHours;
+        System.out.println("Всего работников в компании - " + employeesCompany + " человек");
+
+        var workingHours = 8;
+        var oldemployeesCompany = 80;
+        var newemployeesCompany = 94;
+        var allemployeesCompany = oldemployeesCompany + newemployeesCompany;
+        var allopeningHours = allemployeesCompany * workingHours;
+        System.out.println("Если в компании работает " + allemployeesCompany + " человек," + " то всего " + allopeningHours + " часов работы может быть поделено между сотрудниками.");
 
     }
 }
