@@ -81,6 +81,11 @@ public class Main {
 
     }
     public static void task7 () {
+        System.out.println("Задача 7");
+        var redboxerWeigth = 78.2;
+        var blueboxerWeigth = 82.7;
+        var differenceWeigth = blueboxerWeigth % redboxerWeigth;
+        System.out.println("Весовая разница бойцов " + differenceWeigth + " кг (2 способ)");
 
     }
     public static void task8 () {
